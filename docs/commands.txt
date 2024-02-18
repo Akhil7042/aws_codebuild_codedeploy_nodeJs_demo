@@ -20,6 +20,6 @@ sudo service codedeploy-agent status
 
 ```
 
-# Deploy the files on S3 !
+# Deploy the files on S3
 ```
 aws deploy push --application-name codeDeployDemoSandip --s3-location s3://devops-with-aws-sandip-youtube/codedeploydemo/app.zip --ignore-hidden-files --region us-west-2
